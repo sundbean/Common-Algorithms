@@ -16,4 +16,5 @@ const fibSequence = n => {
     for (i = 0; i < n; i++) {
         result.push(fib(i+1));
     }
+    return result;
 }
