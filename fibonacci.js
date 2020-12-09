@@ -10,3 +10,10 @@ const fib = n => {
         return fib(n-1) + fib(n-2);
     }
 }
+
+const fibSequence = n => {
+    const result = [];
+    for (i = 0; i < n; i++) {
+        result.push(fib(i+1));
+    }
+}
